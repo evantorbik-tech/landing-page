@@ -3,7 +3,8 @@ body{
 }
 
 .header{
-
+color: white;
+background-color: #303145;
 }
 
 .midle{
@@ -13,3 +14,7 @@ body{
 .bottom{
 
 }
+
+.links{
+    
+} 
