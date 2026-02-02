@@ -2,9 +2,21 @@ body{
 
 }
 
+button{
+    background-color: #2968f0;
+}
+
 .header{
 color: white;
 background-color: #303145;
+}
+
+.links{
+    
+}
+
+.image-box{
+    background-color: gray;
 }
 
 .midle{
@@ -15,6 +27,12 @@ background-color: #303145;
 
 }
 
-.links{
-    
-} 
+
+
+.quote{
+    background-color: gray;
+}
+
+.the-quote{
+    font-size: ;
+}
