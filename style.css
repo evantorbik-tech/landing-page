@@ -3,11 +3,20 @@ body{
 }
 
 ul{
-
+display: flex;
+gap: 20px;
+list-style-type: none;
 }
 
 button{
+    color: white;
     background-color: #2968f0;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 .header{
@@ -16,7 +25,8 @@ background-color: #303145;
 }
 
 .links{
-    
+   display: flex;
+   justify-content: flex-end; 
 }
 
 .image-box{
@@ -37,6 +47,10 @@ background-color: #303145;
 
 .bottom{
 
+}
+
+.lower{
+background-color: #2968f0;
 }
 
 .last{
