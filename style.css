@@ -23,12 +23,6 @@ background-color: #303145;
 
 }
 
-.bottom{
-
-}
-
-
-
 .quote{
     background-color: gray;
 }
@@ -36,3 +30,12 @@ background-color: #303145;
 .the-quote{
     font-size: ;
 }
+
+.bottom{
+
+}
+
+.last{
+    background-color: #303145;
+}
+
