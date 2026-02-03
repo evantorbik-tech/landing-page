@@ -1,12 +1,24 @@
 body{
 
 }
+.top, .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-under-code-box{
+    justify-content: center;
+    justify-content: space-around;
+}
 
 ul{
 display: flex;
 gap: 20px;
 list-style-type: none;
 }
+
+
 
 button{
     color: white;
@@ -31,9 +43,9 @@ background-color: #303145;
 .image-box{
     display: flex;
     background-color: gray;
-    padding: 18px;
+    padding: 70px;
     gap: 18px;
-    justify-content: flex-end;
+    
 }
 
 .midle{
@@ -43,8 +55,8 @@ background-color: #303145;
 .quote{
     display: flex;
     background-color: gray;
-    padding: 18px
-    g
+    padding: 18px;
+    gap: 18px;
 }
 
 .the-quote{
@@ -58,11 +70,18 @@ background-color: #303145;
 .lower{
 background-color: #2968f0;
 padding: 18px;
+color: white;
 }
 
 .last{
+    display: flex;
     color: white;
     background-color: #303145;
     padding: 18px;
+    justify-content: center;
 }
 
+.code-title{
+    display: flex;
+    justify-content: center;
+}
