@@ -11,7 +11,6 @@ list-style-type: none;
 button{
     color: white;
     background-color: #2968f0;
-    
 }
 
 a{
@@ -30,7 +29,11 @@ background-color: #303145;
 }
 
 .image-box{
+    display: flex;
     background-color: gray;
+    padding: 18px;
+    gap: 18px;
+    justify-content: flex-end;
 }
 
 .midle{
@@ -38,7 +41,10 @@ background-color: #303145;
 }
 
 .quote{
+    display: flex;
     background-color: gray;
+    padding: 18px
+    g
 }
 
 .the-quote{
@@ -51,10 +57,12 @@ background-color: #303145;
 
 .lower{
 background-color: #2968f0;
+padding: 18px;
 }
 
 .last{
     color: white;
     background-color: #303145;
+    padding: 18px;
 }
 
