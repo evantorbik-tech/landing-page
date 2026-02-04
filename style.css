@@ -1,4 +1,7 @@
 body{
+    height: 100vh;
+display: flex;
+flex-direction: column;
 
 }
 .top, .heading {
@@ -8,12 +11,12 @@ body{
 }
 
 .text-under-code-box{
-    justify-content: center;
-    justify-content: space-around;
+
 }
 
 ul{
 display: flex;
+justify-content: center;
 gap: 20px;
 list-style-type: none;
 }
@@ -49,7 +52,8 @@ background-color: #303145;
 }
 
 .midle{
-
+    
+   flex: 1;
 }
 
 .quote{
@@ -79,9 +83,18 @@ color: white;
     background-color: #303145;
     padding: 18px;
     justify-content: center;
+    
 }
 
 .code-title{
     display: flex;
     justify-content: center;
+}
+
+.placeholder {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
