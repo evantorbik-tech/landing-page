@@ -5,14 +5,18 @@ flex-direction: column;
 
 }
 .top, .heading {
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 40px;
 }
 
 .text-under-code-box{
 
 }
+
+
 
 ul{
 display: flex;
@@ -67,7 +71,16 @@ background-color: #303145;
 }
 
 .the-quote{
-    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+font-size: 30px;
+  margin-right: 20px;
+}
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 .bottom{
