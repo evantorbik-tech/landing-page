@@ -46,15 +46,15 @@ background-color: #303145;
 }
 
 .links{
-   display: flex;
-   justify-content: flex-end; 
+display: flex;
+justify-content: flex-end; 
 }
 
 .image-box{
-    display: flex;
-    background-color: gray;
-    padding: 70px;
-    gap: 18px;
+display: flex;
+background-color: gray;
+padding: 70px;
+gap: 18px;
     
 }
 
@@ -63,24 +63,23 @@ background-color: #303145;
 }
 
 .quote{
-    display: flex;
-    background-color: lightgray;
-    padding: 18px;
-    gap: 18px;
-    flex-direction: column;
+display: flex;
+background-color: lightgray;
+padding: 18px;
+gap: 18px;
+flex-direction: column;
+
 }
 
 .the-quote{
-    margin-left: 20px;
-    margin-top: 10px;
-font-size: 30px;
-  margin-right: 20px;
+width: 500px;
+margin: 80px auto;
+
 }
 
 .thor{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
+display: flex;
+justify-content: flex-end;
 }
 
 .bottom{
@@ -88,7 +87,7 @@ font-size: 30px;
 }
 
 .lower{
-    display: flex;
+display: flex;
 background-color: #2968f0;
 padding: 18px;
 color: white;
@@ -130,4 +129,8 @@ width: 700px;
 
 .button2{
     border: 2px solid white;
+}
+.subtext{
+display: flex;
+flex-direction: column;
 }
