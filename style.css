@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     height: 100vh;
 display: flex;
 flex-direction: column;
-
+font-family: Roboto;
 }
+
 .top, .heading {
     font-size: 20px;
     display: flex;
@@ -12,24 +14,18 @@ flex-direction: column;
     margin: 40px;
 }
 
-.text-under-code-box{
-
-}
-
-
-
 ul{
-display: flex;
-justify-content: center;
-gap: 20px;
-list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
 }
 
 
 
 button{
     color: white;
-    background-color: #2968f0;
+    background-color: #3882f6;
     border-radius: 7px;
     width: 90px;
     height: 26px;
@@ -41,20 +37,20 @@ a{
 }
 
 .header{
-color: white;
-background-color: #303145;
+    color: white;
+    background-color: #1f2937;
 }
 
 .links{
-display: flex;
-justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end; 
 }
 
 .image-box{
-display: flex;
-background-color: gray;
-padding: 70px;
-gap: 18px;
+    display: flex;
+    background-color: gray;
+    padding: 70px;
+    gap: 18px;
     
 }
 
@@ -63,52 +59,45 @@ gap: 18px;
 }
 
 .quote{
-display: flex;
-background-color: lightgray;
-padding: 18px;
-gap: 18px;
-flex-direction: column;
-
+    display: flex;
+    background-color: lightgray;
+    padding: 18px;
+    gap: 18px;
+    flex-direction: column;
 }
 
 .the-quote{
-width: 500px;
-margin: 80px auto;
-
+    width: 500px;
+    margin: 80px auto;
 }
 
 .thor{
-display: flex;
-justify-content: flex-end;
-}
-
-.bottom{
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .lower{
-display: flex;
-background-color: #2968f0;
-padding: 18px;
-color: white;
-border-radius: 10px;
-gap: 20px;
-align-items: center;
-justify-content: space-between;
-height: 60px;
-width: 700px;
+    display: flex;
+    background-color: #3882f6;
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 700px;
 }
 
 .my-last-braincell{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .last{
     display: flex;
     color: white;
-    background-color: #303145;
+    background-color: #1f2937;
     padding: 18px;
     justify-content: center;
     
@@ -131,6 +120,6 @@ width: 700px;
     border: 2px solid white;
 }
 .subtext{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
