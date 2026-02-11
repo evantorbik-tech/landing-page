@@ -51,7 +51,6 @@ a{
     background-color: gray;
     padding: 70px;
     gap: 18px;
-    
 }
 
 .midle{
@@ -122,4 +121,8 @@ a{
 .subtext{
     display: flex;
     flex-direction: column;
+}
+
+img{
+    height: 200px;
 }
